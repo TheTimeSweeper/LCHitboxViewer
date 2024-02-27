@@ -434,7 +434,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /y &quot;$(TargetPath)&quot; &quot;C:\EnforcerBuild&quot;" />
+    <Exec Command="copy /y &quot;$(TargetPath)&quot; &quot;C:\EnforcerBuild&quot;&#xD;&#xA;copy /y &quot;$(TargetPath)&quot; &quot;E:\r2modmanPlus-local\LethalCompany\profiles\hit\BepInEx\plugins&quot;" />
   </Target>
 
 </Project>
